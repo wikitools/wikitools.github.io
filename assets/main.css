@@ -1,0 +1,88 @@
+#particles-js {
+    height: 600px;
+    margin-bottom: -600px;
+}
+
+.logo-image {
+    margin-top: 3em;
+    max-width: 240px;
+    pointer-events: none;
+}
+
+.masthead.segment {
+    min-height: 600px;
+    padding: 0em;
+}
+
+.masthead h1.ui.header {
+    margin-bottom: 0em;
+    font-size: 4em;
+    font-weight: normal;
+    pointer-events: none;
+}
+
+.masthead h2 {
+    font-size: 1.7em;
+    font-weight: normal;
+    margin: 0 0 1.5em;
+    pointer-events: none;
+}
+
+.ui.vertical.stripe {
+    padding: 8em 0em;
+}
+
+.ui.vertical.stripe h3 {
+    font-size: 2em;
+}
+
+.ui.vertical.stripe .button + h3,
+.ui.vertical.stripe p + h3 {
+    margin-top: 3em;
+}
+
+.ui.vertical.stripe .floated.image {
+    clear: both;
+}
+
+.ui.vertical.stripe p {
+    font-size: 1.33em;
+}
+
+.ui.vertical.stripe .horizontal.divider {
+    margin: 3em 0em;
+}
+
+.footer.segment {
+    padding: 5em 0em;
+}
+
+@media only screen and (max-width: 640px) {
+    #particles-js {
+        height: 380px;
+        margin-bottom: -380px;
+    }
+    .logo-image {
+        margin-top: 2em;
+        max-width: 120px;
+    }
+    .masthead.segment {
+        min-height: 380px;
+    }
+    .masthead h1.ui.header {
+        font-size: 2em;
+    }
+    .masthead h2 {
+        margin-top: 0em;
+        font-size: 1.2em;
+    }
+    .ui.vertical.stripe p {
+        font-size: 1.15em;
+    }
+    .stackable.cards.link {
+        padding: 2em;
+    }
+    .ui.vertical.stripe {
+        padding: 4em 0em;
+    }
+}
