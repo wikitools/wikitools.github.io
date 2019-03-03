@@ -9,11 +9,33 @@
   <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="assets/main.css" />
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/transition.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/dropdown.min.js"></script>
 </head>
 <body>
   <div class="pusher">
     <div class="ui inverted vertical masthead center aligned segment">
-    <div id="particles-js"></div>
+      <div id="particles-js"></div>
+      <div class="ui topbar container">
+        <div class="ui large secondary inverted pointing menu">
+          <div class="right item">
+            <div class="ui floating dropdown link">
+              <i class="world icon"></i>
+              <div class="text">Language</div>
+              <div class="menu">
+                <a class="item active" href="index.html">
+                  <i class="pl flag"></i> Polish
+                  <span class="description">Polski</span>
+                </a>
+                <a class="item" href="index-en.html">
+                  <i class="gb flag"></i> English
+                  <span class="description">English</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="ui text container">
         <img src="assets/logo.png" class="logo-image" />
         <h1 class="ui inverted header">
